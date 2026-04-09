@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+header a {
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: #d40485;
+  color: #fff;
+}
+
+#inicio {
+  padding: 100px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+#inicio h3 {
+  margin-bottom: 20px;
+}
+
+#inicio a {
+  background-color: #d40485;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+#inicio a:hover {
+  transform: scale(1.1);
+}
+
+#modulos {
+  text-align: center;
+}
+
+#modulos h2 {
+  margin: 50px 0;
+}
+
+#modulos ul {
+  background-color: #f4f4f4;
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#modulos li span{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
+
+#mercado {
+  text-align: center;
+}
+
+#mercado h2 {
+  padding: 40px 0;
+}
+
+#mercado div {
+  color: #fff;
+  padding: 10px;
+  background-color: #d40485;
+  display: block;
+  margin: 10px;
+}
+
+#contato {
+  padding: 100px;
+}
+#contato h2 {
+  padding: 20px 0;
+}
+#contato div {
+  margin: 10px 0;
+}
+
+#contato form input {
+  width: 100%;
+  padding: 5px;
+}
+
+#contato form button {
+  width: 100%;
+  padding: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
